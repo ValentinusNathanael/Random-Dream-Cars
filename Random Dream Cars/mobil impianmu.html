@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mobil Impian</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+
+    <h1>Temukan Mobil Impianmu!</h1>
+    <input type="text" id="name" placeholder="Masukkan namamu">
+    <button onclick="showDreamCar()">Tampilkan Mobil Impian</button> 
+
+    <div class="result" id="result">
+        <h2 id="greeting"></h2>
+        <h3 id="carName"></h3>
+        <img id="carImage" src="" alt="Mobil Impian">
+        <p id="carDescription"></p>
+        <button id="detailButton"  style="display: none;">Lihat Detail Mobil</button>
+    </div>
+
+    <script src="cars.js"></script> 
+</body>
+</html>
